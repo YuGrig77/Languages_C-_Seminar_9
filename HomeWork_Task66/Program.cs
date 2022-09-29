@@ -9,13 +9,11 @@ int m = InputNumber("Pls enter M: ");
 int n = InputNumber("Pls enter N: ");
 Console.WriteLine($"M = {m}; N = {n} -> {CountSumNaturalElements(m, n)}");
 
-
 int InputNumber(string output)
 {
     Console.Write(output);
     return int.Parse(Console.ReadLine());
 }
-
 
 int CountSumNaturalElements(int m, int n)
 {

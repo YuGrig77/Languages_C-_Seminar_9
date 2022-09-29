@@ -15,5 +15,6 @@ void NaturalNumber(int num)
     if (num % 2 == 0) Console.Write("{0,2},", num);
     NaturalNumber(num - 1);
 }
+
 Console.Write($"N = {num} ->");
 NaturalNumber(num);

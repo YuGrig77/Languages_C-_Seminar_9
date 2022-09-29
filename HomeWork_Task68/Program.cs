@@ -10,7 +10,6 @@ int m = InputNumber("m = ");
 int n = InputNumber("n = ");
 Console.WriteLine($"A({m}, {n}) = {Akkerman(m, n)}");
 
-
 int InputNumber(string output)
 {
     Console.Write(output);
